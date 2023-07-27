@@ -1,0 +1,8 @@
+{
+  "mainnet": {
+    "BAMM": {
+      "address": "0x00FF66AB8699AAfa050EE5EF5041D1503aa0849a",
+      "startBlock": 14067816
+    }
+  }
+}
