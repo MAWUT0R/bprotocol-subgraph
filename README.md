@@ -20,15 +20,15 @@ The Graph community is seeking a **B.Protocol Subgraph** to be built and open-so
 
 ### RFP Requirements
 - [x] Proposal to design and build a subgraph schema and deploy the subgraph:
-- [] Design the manifest, schema and mapping file and receive feedback from community or potential users on the mappings and the subgraph's usefulness
-- [] Develop subgraph and conduct testing, follow resourcing below for best practices on subgraph development including assessing splitting the subgraph into multiple
-- [] Conduct user interviews or feedback from potential integrators (eg. dapps)
-- [] Ensure the subgraph is complete, accurate and complex enough to be used by high-quality dapps in the Web3 ecosystem
-- [] Must be open sourced upon completion
+- [ ] Design the manifest, schema and mapping file and receive feedback from community or potential users on the mappings and the subgraph's usefulness
+- [ ] Develop subgraph and conduct testing, follow resourcing below for best practices on subgraph development including assessing splitting the subgraph into multiple
+- [ ] Conduct user interviews or feedback from potential integrators (eg. dapps)
+- [ ] Ensure the subgraph is complete, accurate and complex enough to be used by high-quality dapps in the Web3 ecosystem
+- [ ] Must be open sourced upon completion
 
 ### Deliverables
-- [] Designed and built subgraph schema and manifest and deployed subgraph on The Graph's hosted service
-- [] Publicize subgraph on the [Graph Explorer](https://thegraph.com/explorer), subgraph open sourced
-- [] Documentation or tips for the subgraph to support integrators
-- [] Documentation or tips for Indexers to support syncing the subgraph
-- [] Optional: blog post or social sharing about the new subgraph to encourage integrators (The Graph Foundation will also support to circulate the new subgraph with the developer community)
+- [ ] Designed and built subgraph schema and manifest and deployed subgraph on The Graph's hosted service
+- [ ] Publicize subgraph on the [Graph Explorer](https://thegraph.com/explorer), subgraph open sourced
+- [ ] Documentation or tips for the subgraph to support integrators
+- [ ] Documentation or tips for Indexers to support syncing the subgraph
+- [ ] Optional: blog post or social sharing about the new subgraph to encourage integrators (The Graph Foundation will also support to circulate the new subgraph with the developer community)
