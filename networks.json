@@ -3,6 +3,12 @@
     "BAMM": {
       "address": "0x00FF66AB8699AAfa050EE5EF5041D1503aa0849a",
       "startBlock": 14067816
+    },
+    "PBAMM": {
+      "address": "0x54bC9113f1f55cdBDf221daf798dc73614f6D972"
+    },
+    "BAMMChickenBonds": {
+      "address": "0x896d8a30C32eAd64f2e1195C2C8E0932Be7Dc20B"
     }
   }
 }

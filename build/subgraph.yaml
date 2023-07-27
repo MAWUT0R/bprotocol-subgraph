@@ -1,6 +1,6 @@
 specVersion: 0.0.5
 schema:
-  file: ./schema.graphql
+  file: schema.graphql
 dataSources:
   - kind: ethereum
     name: BAMM
@@ -26,7 +26,7 @@ dataSources:
         - UserWithdraw
       abis:
         - name: BAMM
-          file: ./abis/BAMM.json
+          file: BAMM/abis/BAMM.json
       eventHandlers:
         - event: Exit(uint256)
           handler: handleExit
@@ -48,7 +48,7 @@ dataSources:
           handler: handleUserDeposit
         - event: UserWithdraw(indexed address,uint256,uint256,uint256)
           handler: handleUserWithdraw
-      file: ./src/bamm.ts
+      file: BAMM/BAMM.wasm
   - kind: ethereum
     name: PBAMM
     network: mainnet
@@ -73,7 +73,7 @@ dataSources:
         - PBAMMUserWithdraw
       abis:
         - name: PBAMM
-          file: ./abis/PBAMM.json
+          file: PBAMM/abis/PBAMM.json
       eventHandlers:
         - event: Exit(uint256)
           handler: handleExit
@@ -95,7 +95,7 @@ dataSources:
           handler: handleUserDeposit
         - event: UserWithdraw(indexed address,uint256,uint256,uint256)
           handler: handleUserWithdraw
-      file: ./src/pbamm.ts
+      file: PBAMM/PBAMM.wasm
   - kind: ethereum
     name: BAMMChickenBonds
     network: mainnet
@@ -118,7 +118,7 @@ dataSources:
         - BAMMChickenBondsUserWithdraw
       abis:
         - name: BAMMChickenBonds
-          file: ./abis/BAMMChickenBonds.json
+          file: BAMMChickenBonds/abis/BAMMChickenBonds.json
       eventHandlers:
         - event: ChickenSet(address)
           handler: handleChickenSet
@@ -136,4 +136,4 @@ dataSources:
           handler: handleUserDeposit
         - event: UserWithdraw(indexed address,uint256)
           handler: handleUserWithdraw
-      file: ./src/bamm-chicken-bonds.ts
+      file: BAMMChickenBonds/BAMMChickenBonds.wasm
